@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+  kubectl:
+    build: .
+    image: rich-ng/kubectl
+
